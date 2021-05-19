@@ -1,3 +1,13 @@
+:root {
+  --bg-primary: white;
+  --bg-secondary: #e06202;
+  --bg-variant: #cbc1b8;
+  --color-primary: black;
+  --color-secondary: white;
+  --color-variant-1: #e06202;
+  --color-variant-2: #5f6364;
+}
+
 .App {
   text-align: center;
 }
@@ -50,3 +60,4 @@
     clear: both;
     display: block;
 }
+

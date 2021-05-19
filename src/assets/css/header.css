@@ -1,4 +1,56 @@
 .logo{
-    width: 20%;
+    width: 12%;
     justify-content: center;
 }
+
+    /*Nav*/
+
+navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+    /*HAMBURGER*/
+
+.hamburger {
+    background: var(--bg-primary);
+}
+
+.menu{
+    margin-left: 74.7%;
+    margin-top: -11%;
+}
+
+    /* BUSCADOR*/
+
+.search {
+    background: var(--bg-primary);
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 14%;
+    align-self: flex-end;
+  }
+  
+  .search h1 {
+    color: var(--color-variant-1);
+    font-size: 300%;
+  }
+  
+  .search p {
+    color: var(--color-variant-2);
+  }
+  
+  .search button {
+    color: var(--color-secondary);
+    background: var(--bg-secondary);
+    width: 35%;
+    height: 40px;
+    font-size: large;
+    font-weight: bold;
+  }
+
+  .search input {
+    width: 35%;
+    height: 34px;
+  }
