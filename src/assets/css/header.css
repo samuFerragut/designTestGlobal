@@ -1,36 +1,78 @@
-.logo{
-    width: 12%;
-    justify-content: center;
-}
 
-    /*Nav*/
+    /*NAV*/
 
 navbar{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    background-image: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
-    /*HAMBURGER*/
+          /*Logo*/
+        navbar>a{
+          width: 12%;
+          margin-left: 18%;
+        }
+        .logo{
+          width: 100%;
+          float: left;
+          display: block;
+        }
 
-.hamburger {
-    background: var(--bg-primary);
+          /*Menu*/
+
+      .menu {
+        width: 70%;
+        float: right;
+        font-size: 18px;
+        margin-top: -33px;
+      }
+
+      .menu ul {
+        line-height: 85px;
+        width: 60%;
+        float: right;
+      }
+
+      .menu ul li {
+        display: inline-block;
+        list-style: none;
+        height: 46px;
+        margin-left: 15px;
+        margin-right: 15px;
+
+      }
+
+      .menu a {
+        text-decoration: none;
+        color: var(--color-secondary);
+        transition: 300ms all;
+        font-weight: bold;
+      }
+
+      .menu a:hover {
+        text-decoration: underline;
+      }
+
+.clearfix {
+  clear: both;
+  float: none;
 }
-
-.menu{
-    margin-left: 74.7%;
-    margin-top: -11%;
-}
-
     /* BUSCADOR*/
 
 .search {
     background: var(--bg-primary);
     margin-left: 30%;
     margin-right: 30%;
-    margin-top: 14%;
+    margin-top: 16%;
     align-self: flex-end;
-  }
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+}
   
   .search h1 {
     color: var(--color-variant-1);
