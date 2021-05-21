@@ -1,15 +1,17 @@
-// import logo from './assets/images/logo.svg';
+import { Component } from 'react';
 import './assets/css/App.css';
-import Header from './components/header';
+import Router from './Router';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="header">
-        <Header />
-      </header>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <header>
+          <Router />
+        </header>
+      </div>
+    );
+  }
 }
 
 export default App;
