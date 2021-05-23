@@ -15,15 +15,8 @@ class Index extends Component {
                 <div className="App">
                     <Header />
                 </div>
-                <div className="body">
-                    <div>
-                        <h1>¿Que te apetece pedir?</h1>
-                        <p>Tenemos una gran variedad de ...</p>
-                    </div>
                     <Carousel />
-                </div>
-            </div>
-            
+                </div>            
         );
     }
 }

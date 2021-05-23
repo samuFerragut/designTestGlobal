@@ -1,0 +1,48 @@
+.bg-color {
+    background-color: var(--bg-primary);
+}
+
+/* SECTION 1 */
+
+.section {
+    background-color: white;
+    margin-top: 3%;
+    margin-left: 20%;
+    width: 65%;
+    height: 200%;
+    display: flex;
+}
+
+.section-box {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 3%;
+}
+
+/* SECTION 2 Y 3 */
+
+.sections-popular-body {
+    margin-left: 20%;
+}
+
+.two-sections {
+    display: grid;
+    grid-template-columns: 625px 625px;
+}
+
+.section-popular {
+    background-color: white;
+    margin-left: 5%;
+}
+
+.section-popular img {
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.section-popular-text {
+    margin-left: 5%;
+    margin-right: 5%;
+    align-items: center;
+    text-align: center;
+}

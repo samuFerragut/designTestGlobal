@@ -4,6 +4,7 @@ import {BrowserRouter, Route, Switch} from 'react-router-dom';
 /** VIEWS */
 import LogIn from './views/LogIn/LogIn';
 import Index from './views/index/Index';
+import India from './views/India/India'
 
 class Router extends Component {
 
@@ -15,6 +16,7 @@ class Router extends Component {
                 <Switch>
                     <Route exact path="/" component= {Index} />
                     <Route path="/login" component= {LogIn} />
+                    <Route path="/india" component= {India} />
                 </Switch>
 
             </BrowserRouter>
