@@ -1,0 +1,124 @@
+navbar{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+          /*Logo*/
+          navbar>a{
+            width: 12%;
+            margin-left: 18%;
+          }
+          .logo{
+            width: 100%;
+            float: left;
+            display: block;
+          }
+  
+            /*Menu*/
+  
+        .menu-secondary {
+          width: 70%;
+          float: right;
+          font-size: 18px;
+          margin-top: -33px;
+        }
+  
+        .menu-secondary ul {
+          line-height: 85px;
+          width: 60%;
+          float: right;
+        }
+  
+        .menu-secondary ul li {
+          display: inline-block;
+          list-style: none;
+          height: 46px;
+          margin-left: 15px;
+          margin-right: 15px;
+  
+        }
+  
+        .menu-secondary a {
+          text-decoration: none;
+          color: blue;
+          transition: 300ms all;
+          font-weight: bold;
+        }
+  
+        .menu-secondary a:hover {
+          text-decoration: underline;
+        }
+  
+  .clearfix {
+    clear: both;
+    float: none;
+  }
+
+.square {
+    width: 15%;
+    margin-left: 750px;
+    border: #e5e5e5 solid 1px;
+
+}
+
+  /*BUTTONS*/
+
+button {
+  color: var(--color-secondary);
+  margin-top: 8px;
+  height: 40px;
+  width: 250px;
+}
+
+.btn-logo {
+  height: 90%;
+  float: left;
+  margin-top: 2px;
+}
+
+.btn-text {
+  float: center;
+  margin-right: 30px;
+  font-size: 1.05em;
+  font-weight: bolder;
+  margin-top: 10px;
+}
+
+.facebook {
+  background-color: #4d63a7;
+}
+
+.google {
+  background-color: #5b94f4;
+}
+
+.submit {
+  background-color: var(--color-variant-1);
+}
+
+/*FORM*/
+
+h2 {
+  margin-right: 100px;
+  margin-top: 30px;
+}
+
+.separate {
+  font-size: x-small;
+}
+
+.form-group {
+  margin-top: 15px;
+  margin-bottom:15px;
+}
+
+.form-group input {
+  height: 25px;
+  width: 85%;
+}
+
+.link{
+  margin-bottom: 15px;
+}
+

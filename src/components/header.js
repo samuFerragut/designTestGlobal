@@ -11,7 +11,7 @@ class Header extends Component {
 
     render() {
         return (
-            <navbar>
+            <navbar className="bg-image">
                 <a href="/"><img src={logo} className="logo"></img></a>
                 <nav className="menu">
                     <ul>

@@ -1,18 +1,17 @@
 
     /*NAV*/
 
-navbar{
+.bg-image{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     background-image: url(../images/bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
           /*Logo*/
-        navbar>a{
+        .bg-image>a{
           width: 12%;
           margin-left: 18%;
         }
