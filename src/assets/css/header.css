@@ -63,6 +63,7 @@
     /* BUSCADOR*/
 
 .search {
+    text-align: center;
     background: var(--bg-primary);
     margin-left: 30%;
     margin-right: 30%;

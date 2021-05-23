@@ -11,3 +11,72 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.body {
+  margin-left: 25%;
+  margin-top: 5%;
+}
+
+/* CAROUSEL */
+
+.carousel-india {
+  margin-right: 5%;
+  background-image: url(../images/india.jpeg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.carousel-pizza {
+  margin-right: 5%;
+  background-image: url(../images/pizza.jpeg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.carousel-kebab {
+  margin-right: 5%;
+  background-image: url(../images/kebab.jpeg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.carousel-griega {
+  margin-right: 5%;
+  background-image: url(../images/griega.jpeg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.carousel-japonesa {
+  margin-right: 5%;
+  background-image: url(../images/japonesa.jpeg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.carousel-mexicana {
+  margin-right: 5%;
+  background-image: url(../images/mexicana.jpeg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.carousel-horizontal {
+  display: grid;
+  grid-template-columns: repeat(3,450px);
+  grid-template-rows: repeat(3,170px);
+}
+
+.carousel-text {
+  margin-left: 45%;
+  margin-top: 32%;
+}
+
+.carousel-text a {
+  color: var(--color-secondary);
+  text-decoration: none;
+}
+
+.carousel-text a:hover {
+  text-decoration: underline;
+}
