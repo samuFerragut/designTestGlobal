@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
 /** IMAGES */
-import bg from '../assets/images/bg.jpg';
 import logo from '../assets/images/Logos_Just-eat.png';
 
 /** CSS */

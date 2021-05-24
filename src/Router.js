@@ -15,8 +15,8 @@ class Router extends Component {
                 {/** Configurar rutas */}
                 <Switch>
                     <Route exact path="/" component= {Index} />
-                    <Route path="/login" component= {LogIn} />
-                    <Route path="/india" component= {India} />
+                    <Route exact path="/login" component= {LogIn} />
+                    <Route exact path="/india" component= {India} />
                 </Switch>
 
             </BrowserRouter>
