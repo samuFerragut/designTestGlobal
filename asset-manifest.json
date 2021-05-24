@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/designTestGlobal/static/css/main.f419b557.chunk.css",
+    "main.js": "/designTestGlobal/static/js/main.b795560d.chunk.js",
+    "main.js.map": "/designTestGlobal/static/js/main.b795560d.chunk.js.map",
+    "runtime-main.js": "/designTestGlobal/static/js/runtime-main.d4b5c713.js",
+    "runtime-main.js.map": "/designTestGlobal/static/js/runtime-main.d4b5c713.js.map",
+    "static/js/2.6e4f25e6.chunk.js": "/designTestGlobal/static/js/2.6e4f25e6.chunk.js",
+    "static/js/2.6e4f25e6.chunk.js.map": "/designTestGlobal/static/js/2.6e4f25e6.chunk.js.map",
+    "static/js/3.1bea9a35.chunk.js": "/designTestGlobal/static/js/3.1bea9a35.chunk.js",
+    "static/js/3.1bea9a35.chunk.js.map": "/designTestGlobal/static/js/3.1bea9a35.chunk.js.map",
+    "index.html": "/designTestGlobal/index.html",
+    "static/css/main.f419b557.chunk.css.map": "/designTestGlobal/static/css/main.f419b557.chunk.css.map",
+    "static/js/2.6e4f25e6.chunk.js.LICENSE.txt": "/designTestGlobal/static/js/2.6e4f25e6.chunk.js.LICENSE.txt",
+    "static/media/Logo_orange.d1c025d7.png": "/designTestGlobal/static/media/Logo_orange.d1c025d7.png",
+    "static/media/Logos_Just-eat.3c7fb18b.png": "/designTestGlobal/static/media/Logos_Just-eat.3c7fb18b.png",
+    "static/media/Pollo-Tandoori.9aaacf26.jpg": "/designTestGlobal/static/media/Pollo-Tandoori.9aaacf26.jpg",
+    "static/media/Pollo-Tikka.bfe90549.jpg": "/designTestGlobal/static/media/Pollo-Tikka.bfe90549.jpg",
+    "static/media/header.css": "/designTestGlobal/static/media/bg.0f9fb09e.jpg",
+    "static/media/cocina_india2.b621aeca.jpg": "/designTestGlobal/static/media/cocina_india2.b621aeca.jpg",
+    "static/media/index.css": "/designTestGlobal/static/media/pizza.20c3946f.jpeg",
+    "static/media/logo-google.570e795b.jpg": "/designTestGlobal/static/media/logo-google.570e795b.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d4b5c713.js",
+    "static/js/2.6e4f25e6.chunk.js",
+    "static/css/main.f419b557.chunk.css",
+    "static/js/main.b795560d.chunk.js"
+  ]
+}
